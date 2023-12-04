@@ -1,6 +1,7 @@
 
 a {text-decoration: none;
-       color:white;}
+       color:white;
+      font-size: small;}
 
 
 
@@ -26,7 +27,8 @@ h6 {color: white;
 nav {background-color:rgb(10, 46, 70); 
      width: 100%;
      display:flex;
-     justify-content: space-around; }
+     justify-content: space-around;
+     font-size: small;}
       
 header{min-height: 30rem;
       display: flex;
@@ -40,7 +42,7 @@ header img   {width: 20%;}
 main {background-color: white;
      color: rgb(10, 46, 70);
      height: auto;
-     font-size: 2.5rem;
+     font-size: 1rem;
      display: flex;
      text-align: center;
      flex-direction: column;
@@ -127,7 +129,10 @@ nav div { width: 100%;
    footer p {width:100%;
       height: 100%; }
 
-  
+   section.uno div{width:100%;
+      height: 100%;}
+
+   
              
    }  
 
