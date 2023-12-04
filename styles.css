@@ -110,25 +110,26 @@ nav div { width: 100%;
 
 
 /* Espacio para las Media Queries */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 720px) {
  
   main div img {width:40%;
             height: 40%;}
   section.uno{ width: 100%;
              height:auto;}
   }  
+ 
   @media screen and (max-width: 400px) {
  
-   main div img {width:20%;
-             height: 20%;}
-   section.uno{ width: 100%;
-              height:auto;}
-             
-             
+   main div img {width:100%;
+             height: 15%;}
+   section.uno{ width: 100%;}
+
+   footer p {width:100%;
+      height: 100%; }
+
   
+             
    }  
-
-
 
 
 
